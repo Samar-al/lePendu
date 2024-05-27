@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#alphabet, #guessWord {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.one-alphabet {
+    margin-right: 0.5rem;
+    padding: .3rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.one-letter-guess {
+    margin-right: 0.3rem;
+    padding: .3rem;
+}
+
+#submit-button {
+    margin-top: 1rem;
+}
